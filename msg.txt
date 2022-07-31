@@ -1,0 +1,73 @@
+path:        test3.bag
+version:     2.0
+duration:    5:18s (318s)
+start:       Jan 17 2019 16:43:20.13 (1547714600.13)
+end:         Jan 17 2019 16:48:38.71 (1547714918.71)
+size:        6.1 GB
+messages:    206781
+compression: none [3182/3182 chunks]
+types:       bond/Status                              [eacc84bf5d65b6777d4c50f463dfb9c8]
+             diagnostic_msgs/DiagnosticArray          [60810da900de1dd6ddd437c3503511da]
+             dynamic_reconfigure/Config               [958f16a05573709014982821e6822580]
+             dynamic_reconfigure/ConfigDescription    [757ce9d44ba8ddd801bb30bc456f946f]
+             geometry_msgs/Pose                       [e45d45a5a1ce597b249e23fb30fc871f]
+             geometry_msgs/TwistStamped               [98d34b0043a2093cf9d9345ab6eef12e]
+             geometry_msgs/TwistWithCovarianceStamped [8927a1a12fb2607ceea095b2dc440a96]
+             nav_msgs/Odometry                        [cd5e73d190d741a2f92e81eda573aca7]
+             novatel_msgs/BESTPOS                     [8321b9523105411643891c8653878967]
+             novatel_msgs/CORRIMUDATA                 [8ca3f26f898322425170fe621393f009]
+             novatel_msgs/INSCOV                      [75d77cf9321af3888caeeab3a756d0ac]
+             novatel_msgs/INSPVAX                     [b5d66747957184042a6cca9b7368742f]
+             rosgraph_msgs/Log                        [acffd30cd6b6de30f120938c17c593fb]
+             sensor_msgs/Imu                          [6a62c6daae103f4ff57a132d6f95cec2]
+             sensor_msgs/MagneticField                [2f3b0b43eed0c9501de0fa3ff89a45aa]
+             sensor_msgs/NavSatFix                    [2d3a8cd499b9b4a0249fb98fd05cfa48]
+             sensor_msgs/PointCloud2                  [1158d486dd51d683ce2f1be655c3c181]
+             sensor_msgs/TimeReference                [fded64a0265108ba86c3d38fb11c0c16]
+             std_msgs/String                          [992ce8a1687cec8c8bd883ec73ca41d1]
+             ublox_msgs/AidALM                        [de5ab2550e698fc8acfb7263c7c55fa2]
+             ublox_msgs/AidEPH                        [796d86b27ebfe497b3a42695f2e69e13]
+             ublox_msgs/MonHW                         [605e9f0118e26136185358e2b10a0913]
+             ublox_msgs/NavCLOCK                      [a9acfdf2e7ac2bf086926ae4e6a182a0]
+             ublox_msgs/NavPOSECEF                    [6f1f4f9473d5586f7fa1427a3c53cee9]
+             ublox_msgs/NavPVT                        [10f57b0db1fa3679c06567492fa4e5f2]
+             ublox_msgs/NavSAT                        [e8ea6afd23cb79e7e7385313416d9c15]
+             ublox_msgs/NavSTATUS                     [68047fb8ca04a038a6b031cd1a908762]
+             ublox_msgs/RxmRAWX                       [a2df4b27b6a2a1565e42f5669dbb11b5]
+             ublox_msgs/RxmSFRBX                      [c76473d828cc8e80de3a2d83cd6b9dff]
+             velodyne_msgs/VelodyneScan               [50804fc9533a0e579e6322c04ae70566]
+topics:      /diagnostics                                              32722 msgs    : diagnostic_msgs/DiagnosticArray          (4 connections)
+             /imu/data                                                 31840 msgs    : sensor_msgs/Imu                         
+             /imu/mag                                                  31840 msgs    : sensor_msgs/MagneticField               
+             /imu_data_str                                             31841 msgs    : std_msgs/String                         
+             /imu_rt                                                     319 msgs    : sensor_msgs/Imu                         
+             /navsat/fix                                                 319 msgs    : sensor_msgs/NavSatFix                   
+             /navsat/odom                                                318 msgs    : nav_msgs/Odometry                       
+             /navsat/origin                                                1 msg     : geometry_msgs/Pose                      
+             /novatel_data/bestpos                                       319 msgs    : novatel_msgs/BESTPOS                    
+             /novatel_data/corrimudata                                   319 msgs    : novatel_msgs/CORRIMUDATA                
+             /novatel_data/inscov                                        318 msgs    : novatel_msgs/INSCOV                     
+             /novatel_data/inspvax                                       318 msgs    : novatel_msgs/INSPVAX                    
+             /rosout                                                      20 msgs    : rosgraph_msgs/Log                        (7 connections)
+             /rosout_agg                                                   2 msgs    : rosgraph_msgs/Log                       
+             /time_reference                                           31841 msgs    : sensor_msgs/TimeReference               
+             /ublox_gps_node/aidalm                                      329 msgs    : ublox_msgs/AidALM                       
+             /ublox_gps_node/aideph                                      320 msgs    : ublox_msgs/AidEPH                       
+             /ublox_gps_node/fix                                         319 msgs    : sensor_msgs/NavSatFix                   
+             /ublox_gps_node/fix_velocity                                319 msgs    : geometry_msgs/TwistWithCovarianceStamped
+             /ublox_gps_node/monhw                                       318 msgs    : ublox_msgs/MonHW                        
+             /ublox_gps_node/navclock                                    319 msgs    : ublox_msgs/NavCLOCK                     
+             /ublox_gps_node/navposecef                                  319 msgs    : ublox_msgs/NavPOSECEF                   
+             /ublox_gps_node/navpvt                                      319 msgs    : ublox_msgs/NavPVT                       
+             /ublox_gps_node/navsat                                       16 msgs    : ublox_msgs/NavSAT                       
+             /ublox_gps_node/navstatus                                   319 msgs    : ublox_msgs/NavSTATUS                    
+             /ublox_gps_node/rxmraw                                     1274 msgs    : ublox_msgs/RxmRAWX                      
+             /ublox_gps_node/rxmsfrb                                     792 msgs    : ublox_msgs/RxmSFRBX                     
+             /velocity                                                 31841 msgs    : geometry_msgs/TwistStamped              
+             /velodyne_nodelet_manager/bond                             1274 msgs    : bond/Status                              (3 connections)
+             /velodyne_nodelet_manager_cloud/parameter_descriptions        1 msg     : dynamic_reconfigure/ConfigDescription   
+             /velodyne_nodelet_manager_cloud/parameter_updates             1 msg     : dynamic_reconfigure/Config              
+             /velodyne_nodelet_manager_driver/parameter_descriptions       1 msg     : dynamic_reconfigure/ConfigDescription   
+             /velodyne_nodelet_manager_driver/parameter_updates            1 msg     : dynamic_reconfigure/Config              
+             /velodyne_packets                                          3181 msgs    : velodyne_msgs/VelodyneScan              
+             /velodyne_points_0                                         3181 msgs    : sensor_msgs/PointCloud2

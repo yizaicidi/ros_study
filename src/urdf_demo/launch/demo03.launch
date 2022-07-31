@@ -1,0 +1,15 @@
+<launch>
+
+    <param name="robot_description" textfile="$(find urdf_demo)/urdf/urdf/demo03_joint.urdf" />
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find urdf_demo)/config/rviz/urdf.rviz" />
+
+
+
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+
+
+
+</launch>

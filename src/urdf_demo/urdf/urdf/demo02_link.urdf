@@ -1,0 +1,32 @@
+<!-- 设置不同形状的机器人部件 -->
+<robot name="mycar">
+    <link name="base_link">
+        <!-- 可视化标签 -->
+        <visual>
+            <!-- 1.形状 -->
+            <geometry>
+                <!-- 1.1立方体 -->
+                <!-- <box size="0.3 0.2 0.1"/> -->
+                <!-- 1.2圆柱 -->
+                <!-- <cylinder radius="0.1" length="2" /> -->
+                <!-- 1.3球体 -->
+                <!-- <sphere radius="1" /> -->
+                <!-- 1.4皮肤标签 -->
+                <mesh filename="package://urdf_demo/meshes/autolabor_mini.stl" />
+            </geometry>
+            <!-- 2.偏移量 -->
+            <!-- 属性1: xyz=x偏移 y偏移 z偏移
+                     属性2: rpy=x翻滚 y俯仰 z偏航 (单位是弧度) 
+                -->
+            <origin xyz="0 0 0.05" rpy="1.57 0 1.57" />
+            <!-- 3.颜色 -->
+            <!-- 
+                rgba=红绿蓝权重值与透明度 (每个权重值以及透明度取值[0,1])
+             -->
+            <material name="car_color">
+                <color rgba="0 0 1 0.1" />
+            </material>
+        </visual>
+    </link>
+    
+</robot>

@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/melodic/include/**",
+        "/usr/include/**",
+        "/home/shzo/autolabor_ros_ws/devel/include/**",
+        "/home/shzo/autolabor_ros_ws/devel/include/**",
+        "/home/shzo/autolabor_ros_ws/src/head_study/include/**",
+        "/home/shzo/autolabor_ros_ws/src/src_study/include/**",
+        "/home/shzo/autolabor_ros_ws/src/read_data/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

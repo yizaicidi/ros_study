@@ -1,0 +1,8 @@
+prefix=/home/shzo/autolabor_ros_ws/install
+
+Name: src_study
+Description: Description of src_study
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/shzo/autolabor_ros_ws/devel
+
+Name: head_study
+Description: Description of head_study
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
