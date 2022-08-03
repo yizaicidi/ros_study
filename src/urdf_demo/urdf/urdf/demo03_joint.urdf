@@ -1,47 +1,33 @@
-<!-- 设置机器人底盘，并添加摄像头 -->
 <robot name="mycar">
-    <!-- 底盘 -->
     <link name="base_link">
-        <!-- 可视化标签 -->
         <visual>
-            <!-- 1.形状 -->
             <geometry>
-                <!-- 1.1立方体 -->
-                <box size="0.5 0.2 0.1" />
+                <box size="0.3 0.2 0.1" />
             </geometry>
-            <!-- 2.偏移量 -->
             <origin xyz="0 0 0" rpy="0 0 0" />
-            <!-- 3.颜色 -->
-            <material name="blue">
-                <color rgba="0 0 1.0 0.5" />
+            <material name="car_color">
+                <color rgba="0.8 0.5 0 0.5" />
             </material>
         </visual>
     </link>
 
-    <!-- 摄像头 -->
     <link name="camera">
         <visual>
             <geometry>
                 <box size="0.02 0.05 0.05" />
             </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0" />
-            <material name="red">
-                <color rgba="1 0 0 0.5" />
+            <origin xyz="0 0 0.025" rpy="0 0 0" />
+            <material name="camera_color">
+                <color rgba="0 0 1 0.5" />
             </material>
         </visual>
-
     </link>
 
-    <!-- 关节 -->
+
     <joint name="camera2baselink" type="continuous">
-        <!-- 父级 -->
         <parent link="base_link" />
-        <!-- 子级 -->
         <child link="camera" />
-        <!-- 需要计算两个link的物理中心偏移量 -->
-        <origin xyz="0.2 0 0.075" rpy="0 0 0" />
-        <!-- 关节旋转参考的坐标轴 -->
+        <origin xyz="0.1 0 0.05" rpy="0 0 0" />
         <axis xyz="0 0 1" />
     </joint>
-
 </robot>
