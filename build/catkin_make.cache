@@ -1,2 +1,2 @@
-control_turtle:head_study:launch01_basic:plumbing_my:plumbing_param_server:plumbing_pubsub:plumbing_server_client:read_data:ros_apis:rosbag_rw:src_study:tf2_dynamic:tf2_static:tf2s:tf_turtle:urdf_demo
+control_turtle:gazebo_urdf:head_study:launch01_basic:plumbing_my:plumbing_param_server:plumbing_pubsub:plumbing_server_client:read_data:ros_apis:rosbag_rw:src_study:tf2_dynamic:tf2_static:tf2s:tf_turtle:urdf_demo
 -DCATKIN_DEVEL_PREFIX=/home/shzo/autolabor_ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/shzo/autolabor_ros_ws/install -G Unix Makefiles
