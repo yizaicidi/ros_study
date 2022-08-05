@@ -1,0 +1,13 @@
+<robot name="mycar" xmlns:xacro="http://wiki.ros.org/xacro">
+    <!-- 包含惯性矩阵文件 -->
+    <xacro:include filename="head.xacro" />
+    <xacro:include filename="demo_base.xacro" />
+    <xacro:include filename="demo_camera.xacro" />
+    <xacro:include filename="demo_laser.xacro" />
+
+    <xacro:include filename="gazebo/demo_move.xacro" />
+    <xacro:include filename="gazebo/demo_laser.xacro" />
+    <xacro:include filename="gazebo/demo_camera.xacro" />
+    <xacro:include filename="gazebo/demo_kinect.xacro" />
+
+</robot>

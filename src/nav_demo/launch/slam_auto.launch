@@ -1,0 +1,10 @@
+<!-- 集成SLAM与导航，实现机器人自主移动的地图构建 -->
+<launch>
+    <include file="$(find gazebo_urdf)/launch/demo03_env.launch" />
+
+    <!-- SLAM实现 -->
+    <include file="$(find nav_demo)/launch/nav01_slam.launch" />
+    <!-- 导航中的move_base -->
+    <include file="$(find nav_demo)/launch/path.launch" />
+
+</launch>

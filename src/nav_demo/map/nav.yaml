@@ -1,0 +1,14 @@
+#声明地图图片资源的路径
+image: /home/shzo/autolabor_ros_ws/src/nav_demo/map/nav.pgm
+#地图刻度尺单位是 米/像素
+resolution: 0.050000
+#地图的位姿（相对于rviz中的原点位姿
+#地图中左下像素的二维姿势，为（x，y，偏航），偏航为逆时针旋转（偏航= 0表示无旋转）。
+origin: [-50.000000, -50.000000, 0.000000]
+#是否取反
+negate: 0
+#占用阈值
+occupied_thresh: 0.65
+#空闲阈值
+free_thresh: 0.196
+

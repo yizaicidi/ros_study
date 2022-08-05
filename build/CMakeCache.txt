@@ -644,6 +644,9 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
+//The directory containing a CMake configuration file for amcl.
+amcl_DIR:PATH=/opt/ros/melodic/share/amcl/cmake
+
 //The directory containing a CMake configuration file for angles.
 angles_DIR:PATH=/opt/ros/melodic/share/angles/cmake
 
@@ -689,6 +692,12 @@ controller_manager_msgs_DIR:PATH=/opt/ros/melodic/share/controller_manager_msgs/
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for diagnostic_msgs.
+diagnostic_msgs_DIR:PATH=/opt/ros/melodic/share/diagnostic_msgs/cmake
+
+//The directory containing a CMake configuration file for diagnostic_updater.
+diagnostic_updater_DIR:PATH=/opt/ros/melodic/share/diagnostic_updater/cmake
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
 
@@ -730,6 +739,9 @@ genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/melodic/share/geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for gmapping.
+gmapping_DIR:PATH=/opt/ros/melodic/share/gmapping/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/shzo/autolabor_ros_ws/build/gtest/googlemock
@@ -810,6 +822,9 @@ launch01_basic_SOURCE_DIR:STATIC=/home/shzo/autolabor_ros_ws/src/launch01_basic
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so
 
+//The directory containing a CMake configuration file for map_server.
+map_server_DIR:PATH=/opt/ros/melodic/share/map_server/cmake
+
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
 
@@ -818,6 +833,18 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for move_base.
+move_base_DIR:PATH=/opt/ros/melodic/share/move_base/cmake
+
+//The directory containing a CMake configuration file for move_base_msgs.
+move_base_msgs_DIR:PATH=/opt/ros/melodic/share/move_base_msgs/cmake
+
+//Value Computed by CMake
+nav_demo_BINARY_DIR:STATIC=/home/shzo/autolabor_ros_ws/build/nav_demo
+
+//Value Computed by CMake
+nav_demo_SOURCE_DIR:STATIC=/home/shzo/autolabor_ros_ws/src/nav_demo
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
@@ -1184,7 +1211,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

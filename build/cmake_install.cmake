@@ -147,6 +147,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/shzo/autolabor_ros_ws/build/tf2_dynamic/cmake_install.cmake")
   include("/home/shzo/autolabor_ros_ws/build/tf2s/cmake_install.cmake")
   include("/home/shzo/autolabor_ros_ws/build/tf_turtle/cmake_install.cmake")
+  include("/home/shzo/autolabor_ros_ws/build/nav_demo/cmake_install.cmake")
   include("/home/shzo/autolabor_ros_ws/build/gazebo_urdf/cmake_install.cmake")
 
 endif()
